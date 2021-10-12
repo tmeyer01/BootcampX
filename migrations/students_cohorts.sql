@@ -5,9 +5,6 @@ CREATE TABLE cohorts (
   end_date DATE
 );
 
-
-
-
 CREATE TABLE students (
   id SERIAL PRIMARY KEY NOT NULL,
   name  VARCHAR(80) NOT NULL, 
